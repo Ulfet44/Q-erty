@@ -50,9 +50,5 @@ TicTac.forEach((item, index) => {
     let b20 = all[2][0].textContent
     let b21 = all[2][1].textContent
     let b22 = all[2][2].textContent
-
-    if (b00 !=="" && b00==b01==b02){
-        item.disabled = false
-    }
 })
 
